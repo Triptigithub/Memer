@@ -1,6 +1,6 @@
-# 🚀 MemeHustle
+# MemeHustle
 
-A modern meme marketplace where users can create, bid, upvote, and get AI-generated captions/vibes. Built with React + Vite (Tailwind CSS) frontend and Node.js + Express backend with Supabase (PostgreSQL) and Socket.IO for real-time interactions. AI caption/vibe integration is stubbed with fallback logic.
+A cutting-edge meme marketplace where users can create memes, place bids, upvote favorites, and enjoy AI-generated captions and vibes. Built with a React + Vite frontend (styled with Tailwind CSS) and a Node.js + Express backend, powered by Supabase (PostgreSQL) and Socket.IO for real-time updates. AI caption and vibe features are stubbed with fallback logic, ready for full API integration.
 
 <!-- Badges (example) -->
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-43853D?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -14,14 +14,12 @@ A modern meme marketplace where users can create, bid, upvote, and get AI-genera
 
 ## ✨ Features
 
-- **📝 Meme Creation**: Submit title, image URL, and tags.
-- **⚡ Real-Time Bidding**: Place bids on memes; highest bid displayed and broadcast live.
-- **👍 Upvote/Downvote & Leaderboard**: Vote on memes; top memes listed.
-- **🤖 AI Captions & Vibes**: Generate witty captions and “vibe” descriptions (stubbed with fallback; replace with real API if available).
-- **🔍 Search & Grid View**: Search by title or tags; always shows grid layout.
-- **🔒 Mock Authentication**: Random UUID per session stored in localStorage to identify users.
-- **🎨 Modern UI**: Responsive, clean cards, search bar, loading states.
-
+- **📝 Meme Creation**:Easily add memes by submitting a title, image URL, and tags.
+- **⚡ Real-Time Bidding**: Place live bids on memes with instant updates showing the highest bid.
+- **👍 Upvote/Downvote & Leaderboard**: Upvote or downvote memes and explore the top-ranked submissions Generate clever captions and vibe descriptions (currently stubbed, replaceable with real AI API).Generate witty captions and “vibe” descriptions (stubbed with fallback; replace with real API if available).
+- **🔍 Search & Grid View**: Search memes by title or tags with a clean, always-grid layout.
+- **🔒 Mock Authentication**: User sessions identified by random UUIDs stored in localStorage.
+- **🎨 Modern UI**: Responsive design featuring clean cards, a search bar, and smooth loading states.
 ---
 
 ## 🛠️ Tech Stack
@@ -44,7 +42,7 @@ A modern meme marketplace where users can create, bid, upvote, and get AI-genera
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 ### Backend (`backend/.env`)
 
@@ -60,7 +58,7 @@ PORT=5000
 VITE_API_URL=https://<your-backend-domain>/api
 VITE_SOCKET_URL=https://<your-backend-domain>
 ```
-## 💾 Supabase Schema
+## Supabase Schema
 In Supabase Dashboard → SQL Editor, run:
 
 1. **Enable UUID extension** (if needed):
@@ -106,7 +104,7 @@ $$;
 ```
 Confirm tables and function in Table Editor.
 
-## 🏠 Local Development
+##  Local Development
 ### Backend
 ```bash
 cd backend
@@ -122,7 +120,7 @@ npm install
 # (Optional) create .env with VITE_API_URL/VITE_SOCKET_URL if needed
 npm run dev
 ```
-## 🚀 Deployment
+## Deployment
 ### Backend on Render
 - Root Directory:
 ```bash
@@ -163,7 +161,7 @@ VITE_SOCKET_URL=https://<backend-url>
 ```
 - Deploy and verify live site.
 
-## 🎮 Usage
+## Usage
 - **Home**: Browse memes in a responsive grid.
 
 - **Search**: Filter by title or tags.
